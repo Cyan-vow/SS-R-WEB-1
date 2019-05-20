@@ -141,7 +141,7 @@ else
 #    fi
 fi
 cd /usr/local
-git clone https://github.com/shangshanzhiyi/SS-R-
+git clone https://github.com/Cyan-vow/SS-R-
 cd ./shadowsocksr
 git checkout manyuser
 git pull
@@ -209,7 +209,7 @@ if [[ -d /usr/local/SSR-Bash-Python ]];then
     if [[ $yn == [yY] ]];then
         rm -rf /usr/local/SSR-Bash-Python
         cd /usr/local
-        git clone https://github.com/shangshanzhiyi/SS-R-.git
+        git clone https://github.com/Cyan-vow/SS-R-.git
     fi
     cd /usr/local/SSR-Bash-Python
     git checkout master
@@ -220,7 +220,7 @@ if [[ -d /usr/local/SSR-Bash-Python ]];then
     fi
 else
     cd /usr/local
-    git clone https://github.com/shangshanzhiyi/SS-R-.git
+    git clone https://github.com/Cyan-vow/SS-R-.git
     cd SSR-Bash-Python
     git checkout master
     if [[ $1 == "develop" ]];then
@@ -305,10 +305,10 @@ fi
 fi
 #Install SSR-Bash Background
 if [[ $1 == "develop" ]];then
-	wget -q -N --no-check-certificate -O /usr/local/bin/ssr https://raw.githubusercontent.com/shangshanzhiyi/SS-R-WEB-1/master/ssr
+	wget -q -N --no-check-certificate -O /usr/local/bin/ssr https://raw.githubusercontent.com/Cyan-vow/SS-R-WEB-1/master/ssr
 	chmod +x /usr/local/bin/ssr
 else
-	wget -q -N --no-check-certificate -O /usr/local/bin/ssr https://raw.githubusercontent.com/shangshanzhiyi/SS-R-WEB-1/master/ssr
+	wget -q -N --no-check-certificate -O /usr/local/bin/ssr https://raw.githubusercontent.com/Cyan-vow/SS-R-WEB-1/master/ssr
 	chmod +x /usr/local/bin/ssr
 fi
 
